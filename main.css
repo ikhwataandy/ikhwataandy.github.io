@@ -159,6 +159,7 @@ li {
     cursor: pointer;
     z-index: 1500;
     transition: transform 650ms ease-out;
+    user-select: auto;
 }
 
 .menu-toggler.open {
@@ -209,7 +210,7 @@ li {
 }
 
 .landing-text h1 {
-    font-size: 20rem;
+    font-size: 15rem;
     font-family: 'The Historia Demo', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
@@ -279,6 +280,9 @@ li {
     height: 100%;
     margin: 0 auto;
     position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center
 }
 
 .currently-heading {
@@ -290,6 +294,7 @@ li {
 
 .currently-details {
     flex: 1;
+    align-items: center;
 }
 
 .currently-heading h2 {
@@ -297,6 +302,12 @@ li {
     text-align: center;
     font-size: 18px;
     font-family: "Lucida Console", Monaco, monospace;
+}
+
+.logo {
+    text-align: center;
+    align-items: center;
+    justify-content: center
 }
 
 .logo1 {
@@ -319,7 +330,7 @@ li {
     flex: 1;
     width: 15%;
     margin-top: 42px;
-    margin-left: 270px;
+    margin-left: 250px;
     position: absolute;
 }
 
@@ -327,18 +338,20 @@ li {
     flex: 1;
     width: 19%;
     margin-top: 28px;
-    margin-left: 380px;
+    margin-left: 350px;
     position: absolute;
 }
 
 .s-m {
-    margin-top: 5rem;
-    width: 100%;
+    margin-top: 10rem;
+    width: 110%;
     height: 100%;
     position: relative;
     transform: translateY(-50%);
-    margin-left: 10px;
+    /* margin-left: 10px; */
     text-align: center;
+    align-items: center;
+    justify-content: center
 }
 
 
